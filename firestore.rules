@@ -1,0 +1,14 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Règles pour la collection "rsvp"
+    match /rsvp/{document=**} {
+      // Permettre à n'importe qui de lire les réponses (nécessaire car l'Admin.tsx n'utilise pas Firebase Auth)
+      allow read: if true;
+      // Permettre à n'importe qui de créer un nouveau RSVP
+      allow create: if true;
+      // Interdire la modification ou la suppression pour éviter les abus
+      allow update, delete: if false;
+    }
+  }
+}

@@ -64,10 +64,10 @@ export default function LocationsMap() {
           center={[52.486, 13.416]}
           zoom={12}
         >
-          {/* CartoDB Voyager Tile Layer - Cleaner and fits the theme better */}
+          {/* OpenStreetMap Tile Layer (No API key required) */}
           <TileLayer
-            attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
-            url="https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png"
+            attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+            url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
           />
           <MapBounds locations={locations} />
           {locations.map((loc, idx) => (
@@ -95,6 +95,9 @@ export default function LocationsMap() {
       
       {/* Some custom Leaflet popup styling to blend with the app */}
       <style>{`
+        .leaflet-tile-pane {
+          filter: saturate(0.85) contrast(0.98);
+        }
         .leaflet-popup-content-wrapper {
           border-radius: 2px;
           box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
