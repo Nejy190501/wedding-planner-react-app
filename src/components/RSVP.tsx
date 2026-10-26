@@ -78,17 +78,17 @@ export default function RSVP() {
             </div>
           </div>
           <div className="text-center">
-            <p className="text-white font-medium text-lg mb-3">Nicolas Boulnois</p>
+            <p className="text-white font-medium text-lg mb-3">Dennis Andersen</p>
             <div className="flex flex-col items-center gap-2">
               <a 
-                href="tel:+491602439154" 
+                href="tel:+4915754289412" 
                 className="inline-flex items-center gap-2 text-stone-300 hover:text-white transition-colors text-sm"
               >
                 <Phone className="w-4 h-4" />
-                +49 160 2439154
+                +49 1575 4289412
               </a>
               <a 
-                href="https://wa.me/491602439154" 
+                href="https://wa.me/4915754289412" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 text-green-400 hover:text-green-300 transition-colors text-sm"

@@ -49,7 +49,7 @@ export const translations: Translations = {
         title: "Début de la fête de mariage",
         date: "Samedi 21 Novembre 2026",
         time: "17:30",
-        location: "Salle de fête",
+        location: "Gloria Event Center",
         address: "Markgrafenstraße 67, 10969 Berlin",
         description: ""
       }
@@ -66,7 +66,7 @@ export const translations: Translations = {
       subtitle: "Retrouve les lieux de la célébration à Berlin.",
       route: "Itinéraire",
       loc1: { name: "Salle du Royaume", desc: "Discours – 11:00", address: "Naumburger Str. 37, 12057 Berlin", city: "Berlin-Neukölln" },
-      loc2: { name: "Salle de fête", desc: "Début de la fête – 17:30", address: "Markgrafenstraße 67, 10969 Berlin", city: "Berlin-Kreuzberg" }
+      loc2: { name: "Gloria Event Center", desc: "Début de la fête – 17:30", address: "Markgrafenstraße 67, 10969 Berlin", city: "Berlin-Kreuzberg" }
     },
     info: {
       title: "Infos Pratiques",
@@ -187,7 +187,7 @@ export const translations: Translations = {
         title: "Start of the Wedding Celebration",
         date: "Saturday November 21, 2026",
         time: "5:30 PM",
-        location: "Celebration Venue",
+        location: "Gloria Event Center",
         address: "Markgrafenstraße 67, 10969 Berlin",
         description: ""
       }
@@ -204,7 +204,7 @@ export const translations: Translations = {
       subtitle: "Find the celebration venues in Berlin.",
       route: "Directions",
       loc1: { name: "Kingdom Hall", desc: "Talk – 11:00 AM", address: "Naumburger Str. 37, 12057 Berlin", city: "Berlin-Neukölln" },
-      loc2: { name: "Celebration Venue", desc: "Wedding Celebration – 5:30 PM", address: "Markgrafenstraße 67, 10969 Berlin", city: "Berlin-Kreuzberg" }
+      loc2: { name: "Gloria Event Center", desc: "Wedding Celebration – 5:30 PM", address: "Markgrafenstraße 67, 10969 Berlin", city: "Berlin-Kreuzberg" }
     },
     info: {
       title: "Practical Info",
@@ -325,7 +325,7 @@ export const translations: Translations = {
         title: "Beginn der Hochzeitsfeier",
         date: "Samstag, 21. November 2026",
         time: "17:30 Uhr",
-        location: "Festsaal",
+        location: "Gloria Event Center",
         address: "Markgrafenstraße 67, 10969 Berlin",
         description: ""
       }
@@ -342,7 +342,7 @@ export const translations: Translations = {
       subtitle: "Hier findest du die Veranstaltungsorte unserer Feier in Berlin.",
       route: "Wegbeschreibung",
       loc1: { name: "Königreichssaal", desc: "Ansprache – 11:00 Uhr", address: "Naumburger Str. 37, 12057 Berlin", city: "Berlin-Neukölln" },
-      loc2: { name: "Festsaal", desc: "Hochzeitsfeier – 17:30 Uhr", address: "Markgrafenstraße 67, 10969 Berlin", city: "Berlin-Kreuzberg" }
+      loc2: { name: "Gloria Event Center", desc: "Hochzeitsfeier – 17:30 Uhr", address: "Markgrafenstraße 67, 10969 Berlin", city: "Berlin-Kreuzberg" }
     },
     info: {
       title: "Praktische Infos",

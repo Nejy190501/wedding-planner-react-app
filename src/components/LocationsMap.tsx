@@ -35,14 +35,14 @@ export default function LocationsMap() {
   const locations = useMemo(() => [
     {
       name: t("map.loc1.name"),
-      position: [52.4680, 13.4410] as [number, number], // Naumburger Str. 37, 12057 Berlin-Neukölln
+      position: [52.46713, 13.44618] as [number, number], // Naumburger Str. 37, 12057 Berlin-Neukölln
       desc: t("map.loc1.desc"),
       address: t("map.loc1.address"),
       city: t("map.loc1.city")
     },
     {
       name: t("map.loc2.name"),
-      position: [52.5040, 13.3920] as [number, number], // Markgrafenstraße 67, 10969 Berlin
+      position: [52.50570, 13.39409] as [number, number], // Gloria Event Center - Markgrafenstraße 67, 10969 Berlin
       desc: t("map.loc2.desc"),
       address: t("map.loc2.address"),
       city: t("map.loc2.city")

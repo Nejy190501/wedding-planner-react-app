@@ -23,7 +23,7 @@ export default function Events() {
       time: t("events.event2.time"),
       location: t("events.event2.location"),
       address: t("events.event2.address"),
-      mapQuery: "Markgrafenstraße+67+10969+Berlin",
+      mapQuery: "Gloria+Event+Center,+Markgrafenstraße+67,+10969+Berlin",
       description: t("events.event2.description")
     }
   ];
