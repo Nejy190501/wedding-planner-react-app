@@ -8,6 +8,7 @@
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-4.1-38B2AC?logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 [![Firebase](https://img.shields.io/badge/Firebase-Firestore-FFCA28?logo=firebase&logoColor=black)](https://firebase.google.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![CI Build](https://github.com/Nejy190501/wedding-planner-react-app/actions/workflows/ci.yml/badge.svg)](https://github.com/Nejy190501/wedding-planner-react-app/actions/workflows/ci.yml)
 
 An elegant, interactive, and fully-featured digital wedding invitation and management platform created for **Léonie & Liverance**. This application goes beyond a simple invitation, offering a complete guest experience with RSVPs, interactive maps, and bilingual support.
 
